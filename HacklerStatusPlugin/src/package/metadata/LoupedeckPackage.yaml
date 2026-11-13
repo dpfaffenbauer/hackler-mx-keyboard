@@ -1,0 +1,48 @@
+# ==================================================================================================
+# GENERAL SETTINGS
+# ==================================================================================================
+
+# Package type. Must be plugin4 for plugins.
+type: plugin4
+
+# Name that identifies the plugin.
+name: HacklerStatus
+
+# Plugin name that is shown to the user.
+displayName: Hackler Threads
+
+# Short description of the plugin.
+description: Shows your Hackler threads on the MX Creative Keypad - working, waiting for your approval or answer, new results, PR ready - and opens a thread with one press. Uses the login of the hackler CLI.
+
+# Name of the plugin library file.
+pluginFileName: HacklerStatusPlugin.dll
+
+# Plugin version.
+version: 1.0
+
+# Author of the plugin. The author can be a company or an individual developer.
+author: Dominik Pfaffenbauer
+
+# Copyright information.
+copyright: Copyright © 2026 Dominik Pfaffenbauer
+
+
+# ==================================================================================================
+# PLUGIN PROPERTIES
+# ==================================================================================================
+
+# Location of plugin files on macOS (relative to the plugin base directory).
+pluginFolderMac: bin
+
+# List of plugin capabilities.
+pluginCapabilities:
+
+# Minimum Logi Plugin Service version supported by the plugin.
+minimumLoupedeckVersion: 6.4
+
+
+# ==================================================================================================
+# LOUPEDECK MARKETPLACE SETTINGS
+# ==================================================================================================
+
+license: MIT
